@@ -1,12 +1,8 @@
-html {
-    border: 2px solid blue;
-}
-
 body {
     font-family: 'Dosis', sans-serif;
     /* margin: 50px 90px 0 100px; */
     margin: 0 93px 0 93px;
-    border: 2px solid red;
+    border: 2px solid yellow;
 }
 
 h1 {
@@ -35,6 +31,8 @@ h5 {
 }
 
 .header-container {
+    position: absolute;
+    top: 50px;
     border: 2px solid black;
     border-radius: 30px;
     display: flex;
@@ -45,7 +43,7 @@ h5 {
     overflow: hidden;
     height: 646px;
     width: 1321px;
-    margin: 50px 0 130px 0;
+    margin: 0 0 130px 0;
 
 }
 
@@ -134,14 +132,15 @@ h5 {
 }
 
 .middlepart {
-    position: absolute;
-    top: 826px;
+
     border: 2px solid red;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     column-gap: 24px;
     margin: 0px 0 130px 0;
+    position: absolute;
+    top: 826px;
     /* margin-bottom: 130px; */
 }
 
@@ -292,4 +291,27 @@ h5 {
 
 .footericons:hover {
     cursor: pointer;
+}
+
+/* for mobile */
+@media screen and (max-width: 768) {}
+
+/* for tab */
+@media screen and (min-width:769) and (max-width:992) {
+    .header-container {
+        height: 398px;
+        width: 734px;
+    }
+
+    .header-left {
+        height: 276px;
+        width: 316px;
+        margin: 61px 2px 61px 76px;
+    }
+
+    .header-right {
+        height: 340px;
+        width: 323px;
+        margin: 58px 17px 0px 0px;
+    }
 }
