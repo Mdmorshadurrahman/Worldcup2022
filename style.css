@@ -2,7 +2,6 @@ body {
     font-family: 'Dosis', sans-serif;
     /* margin: 50px 90px 0 100px; */
     margin: 0 93px 0 93px;
-    border: 2px solid yellow;
 }
 
 h1 {
@@ -294,13 +293,14 @@ h5 {
 }
 
 /* for mobile */
-@media screen and (max-width: 768) {}
+@media screen and (max-width:768px) {}
 
 /* for tab */
-@media screen and (min-width:769) and (max-width:992) {
+@media screen and (min-width:769px) and (max-width:992px) {
     .header-container {
         height: 398px;
         width: 734px;
+        background-color: red;
     }
 
     .header-left {
