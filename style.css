@@ -134,6 +134,8 @@ h5 {
 }
 
 .middlepart {
+    position: absolute;
+    top: 826px;
     border: 2px solid red;
     display: flex;
     justify-content: center;
