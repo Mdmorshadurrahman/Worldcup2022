@@ -30,8 +30,8 @@ h5 {
 }
 
 .header-container {
-    position: absolute;
-    top: 50px;
+    /* position: absolute;
+    top: 50px; */
     border: 2px solid black;
     border-radius: 30px;
     display: flex;
@@ -293,20 +293,37 @@ h5 {
 }
 
 /* for mobile */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:767px) {}
 
 /* for tab */
-@media screen and (min-width:769px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:768px) {
     .header-container {
         height: 398px;
         width: 734px;
         background-color: red;
+        /* position: absolute;
+        top: 50px; */
+        border: 2px solid black;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        /* margin-bottom: 130px; */
+        overflow: hidden;
+        margin: 0 0 130px 0;
     }
 
     .header-left {
         height: 276px;
         width: 316px;
         margin: 61px 2px 61px 76px;
+        color: black;
+        /* width: 531px;
+        height: 424px; */
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .header-right {
