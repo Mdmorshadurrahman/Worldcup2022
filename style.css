@@ -1,9 +1,16 @@
+html,
 body {
     font-family: 'Dosis', sans-serif;
     /* padding: 50px 139px 0px 85px; */
     margin: 0 0 0 0;
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
+
 
 h1 {
     font-size: 65px;
@@ -47,9 +54,9 @@ h5 {
 
 .header-left {
     color: black;
-    width: 531px;
+    width: 50%;
     height: 424px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     margin: 111px 24px 111px 106px;
     flex-direction: column;
@@ -62,7 +69,7 @@ h5 {
 } */
 
 .header-left-button button {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 56px;
     width: auto;
     background-color: black;
@@ -82,30 +89,30 @@ h5 {
 .header-left-title {
     font-size: 65px;
     height: 240px;
-    width: 531px;
+    width: auto;
     margin-bottom: 20px;
     /* overflow: hidden; */
-    /* border: 2px solid blue; */
+    border: 2px solid white;
 }
 
 .header-left-subtitle {
-    width: 506px;
+    width: auto;
     height: 60px;
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     margin-bottom: 30px;
 }
 
 .header-right {
-    width: 581px;
+    width: 50%;
     height: 613px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin: 33px 79px 0px 0px;
 
 }
 
 .header-right img,
 .messi {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     width: 100%;
     height: 105%;
 }
@@ -123,23 +130,77 @@ h5 {
 
 .middlepart {
 
-    /* border: 2px solid red; */
+    border: 2px solid yellow;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    column-gap: 24px;
-    margin: 0px 138px 130px 141px;
+    justify-content: space-between;
+    column-gap: 15%;
+    margin: 0px 136px 130px 141px;
+    width: auto;
+    height: 1000px;
 }
 
+.menu {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 25%;
+    background-color: blue;
+    border-radius: 10px;
+    align-items: center;
+    width: 185%;
+    height: 25%;
+    row-gap: 10%;
+}
+
+.schedules,
+.Stats,
+.Updates {
+    width: 80%;
+    border: 2px solid red;
+}
+
+.schedules button,
+.Stats button {
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.Updates button {
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
 
 .squadgrid {
-    /* border: 2px solid gray; */
+    border: 2px solid violet;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 24px;
-    column-gap: 24px;
-    justify-content: center;
+    row-gap: 3%;
+    column-gap: 3%;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* width: 80%; */
+    height: 100%;
+}
+
+.squad {
+    width: auto;
+    height: auto;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2%;
+
 }
 
 .squadgrid img {
@@ -149,11 +210,11 @@ h5 {
 }
 
 .icons {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: flex-start;
-    margin-left: 5px;
-    column-gap: 30px;
+    margin-left: 2%;
+    column-gap: 15%;
 }
 
 
@@ -163,50 +224,8 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 30%;
     color: gray;
-}
-
-.squad {
-    width: 288px;
-    height: 362px;
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-
-}
-
-.menu {
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 30px 30px;
-    background-color: blue;
-    border-radius: 10px;
-    align-items: center;
-    width: 228px;
-    height: 252px;
-    row-gap: 30px;
-}
-
-.schedules button,
-.Stats button {
-    width: 252px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-}
-
-.Updates button {
-    width: 252px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: black;
-    color: white;
 }
 
 .schedules button:hover,
@@ -217,13 +236,13 @@ h5 {
 }
 
 .squad button {
-    margin-left: 5px;
+    margin-left: 2%;
     background-color: white;
     border-radius: 5px 5px 5px 5px;
 }
 
 .squad button:hover {
-    margin-left: 5px;
+    margin-left: 2%;
     background-color: black;
     color: white;
     border-radius: 5px 5px 5px 5px;
@@ -232,7 +251,7 @@ h5 {
 }
 
 .description {
-    margin-left: 5px;
+    margin-left: 2%;
 }
 
 .footer {
@@ -279,41 +298,40 @@ h5 {
 }
 
 .hide-button {
-    visibility: hidden;
-    position: absolute;
-    bottom: 50%;
+    display: none;
+    visibility: visible;
+    bottom: auto;
 }
 
 /* for mobile */
 @media screen and (max-width:767px) {}
 
 /* for tab */
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:1535px) {
     .header-container {
         height: 398px;
         margin: 50px 50px 70px 50px;
         width: auto;
         /* width: 734px; */
-        background-color: red;
+        background-color: yellow;
     }
 
     .header-left {
-        width: auto;
+        width: 50%;
         height: 276px;
         margin: 61px 2px 61px 76px;
+        border: 2px solid blue;
     }
 
     .header-left-title {
-        /* height: 150px; */
-        width: 289px;
-        height: 150px;
-        font-size: 40px;
+        height: auto;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
     .header-left-subtitle {
         height: 45px;
-        width: 316px;
+        /* width: 316px; */
         overflow: hidden;
         text-overflow: ellipsis;
         margin-bottom: 20px;
@@ -329,7 +347,7 @@ h5 {
 
     .header-right {
         height: 340px;
-        width: auto;
+        width: 50%;
         margin: 58px 17px 0px 0px;
     }
 
@@ -337,34 +355,31 @@ h5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        justify-content: space-between;
         row-gap: 30px;
-        padding: 0 0 0 0;
-        margin: 0 50px;
+        margin: 0 50px 150px 50px;
+        height: auto;
+        width: auto;
+        border: 2px solid greenyellow;
     }
 
     .menu {
-        /* border: 2px solid black; */
         display: flex;
         flex-direction: row;
         justify-content: center;
         justify-content: space-between;
         background-color: white;
-        column-gap: 22px;
+        column-gap: 3%;
         padding: 0 0 0 0;
         height: 100%;
         width: 100%;
     }
 
-    .schedules button,
-    .Stats button {
-        width: 205px;
-        height: 64px;
-        /* padding: 17px; */
-    }
-
-    .Updates button {
-        width: 205px;
-        height: 64px;
+    .schedules,
+    .Stats,
+    .Updates {
+        width: 80%;
+        border: 2px solid red;
     }
 
     .footer {
@@ -377,54 +392,70 @@ h5 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        row-gap: 19.5px;
-        column-gap: 20px;
+        row-gap: 2%;
+        column-gap: 3%;
+        height: 110%;
     }
 
     .squad {
-        width: 320px;
-        height: 414px;
+        width: 100%;
+        height: auto;
+        row-gap: 10px;
         /* border: 2px solid blue; */
-        row-gap: auto;
 
     }
 
     .squad img {
-        height: 200.24px;
+        height: 170px;
         width: 100%;
     }
 
     .hide1,
     .hide2,
     .hide3 {
-        visibility: hidden;
-        position: absolute;
-        bottom: 50%;
-        border: 2px solid black;
+        display: none;
     }
 
     .hide-button {
+        border: 2px solid red;
         display: flex;
         justify-content: center;
-        visibility: visible;
+        align-items: center;
         position: relative;
+        left: 50%;
     }
 
     .hide-button button {
         margin-left: 5px;
         background-color: blue;
         height: 47px;
-        width: 131px;
+        width: 100%;
         color: white;
         border-radius: 10px 10px 10px 10px;
     }
 
+    .hide-button button:hover {
+        background-color: cyan;
+        color: black;
+    }
+
     .footer {
         width: 100%;
-        height: 345px;
-        row-gap: auto;
+        height: 250px;
+        row-gap: 8%;
         padding: 60px auto;
         margin-top: 69px;
     }
 
+    .schedules,
+    .Stats,
+    .Updates {
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    html {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
 }
