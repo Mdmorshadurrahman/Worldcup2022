@@ -1,11 +1,12 @@
 body {
     font-family: 'Dosis', sans-serif;
-    /* margin: 50px 90px 0 100px; */
-    margin: 0 93px 0 93px;
+    /* padding: 50px 139px 0px 85px; */
+    margin: 0 0 0 0;
+    /* border: 2px solid red; */
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 65px;
     margin: 0 0 0 0;
 }
 
@@ -30,19 +31,17 @@ h5 {
 }
 
 .header-container {
-    /* position: absolute;
-    top: 50px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 30px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
     background-color: blue;
-    /* margin-bottom: 130px; */
     overflow: hidden;
     height: 646px;
-    width: 1321px;
-    margin: 0 0 130px 0;
+    width: auto;
+    /* width: 1321px; */
+    margin: 50px 139px 130px 140px;
 
 }
 
@@ -50,8 +49,6 @@ h5 {
     color: black;
     width: 531px;
     height: 424px;
-    /* width: 531px;
-    height: 424px; */
     /* border: 2px solid red; */
     display: flex;
     margin: 111px 24px 111px 106px;
@@ -66,8 +63,8 @@ h5 {
 
 .header-left-button button {
     /* border: 2px solid red; */
-    width: 50%;
-    right: 3.4em;
+    height: 56px;
+    width: auto;
     background-color: black;
     color: white;
     font-family: 'Dosis', sans-serif;
@@ -83,27 +80,26 @@ h5 {
 }
 
 .header-left-title {
-    /* width: 100%; */
-    width: 100%;
+    font-size: 65px;
+    height: 240px;
+    width: 531px;
+    margin-bottom: 20px;
     /* overflow: hidden; */
     /* border: 2px solid blue; */
 }
 
 .header-left-subtitle {
+    width: 506px;
+    height: 60px;
     /* border: 2px solid yellow; */
-    margin: 20px 0px 30px 0;
+    margin-bottom: 30px;
 }
 
 .header-right {
-    /* background-image: url("media/image/image1.jpg") no-repeat; */
-    /* display: flex; */
     width: 581px;
     height: 613px;
     /* border: 2px solid red; */
     margin: 33px 79px 0px 0px;
-    /* object-fit: cov ; */
-
-    /* justify-content: center; */
 
 }
 
@@ -114,12 +110,7 @@ h5 {
     height: 105%;
 }
 
-/* .messi:hover {
-    visibility: hidden;
-    z-index: -20;
-} */
-
-.animation {
+/* .animation {
     position: relative;
     visibility: inherit;
     bottom: 765px;
@@ -128,19 +119,16 @@ h5 {
 
 .animation:hover {
     visibility: visible;
-}
+} */
 
 .middlepart {
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     justify-content: space-around;
     column-gap: 24px;
-    margin: 0px 0 130px 0;
-    position: absolute;
-    top: 826px;
-    /* margin-bottom: 130px; */
+    margin: 0px 138px 130px 141px;
 }
 
 
@@ -165,7 +153,7 @@ h5 {
     display: flex;
     justify-content: flex-start;
     margin-left: 5px;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 
 
@@ -180,7 +168,7 @@ h5 {
 }
 
 .squad {
-    width: 312px;
+    width: 288px;
     height: 362px;
     /* border: 2px solid blue; */
     display: flex;
@@ -194,12 +182,13 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: space-between;
     padding: 30px 30px;
     background-color: blue;
     border-radius: 10px;
     align-items: center;
-    width: 252px;
-    height: 282px;
+    width: 228px;
+    height: 252px;
     row-gap: 30px;
 }
 
@@ -247,16 +236,13 @@ h5 {
 }
 
 .footer {
-    position: absolute;
-    top: 2100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: black;
-    width: 1562px;
+    width: 100%;
     height: 444px;
-    margin-left: -140px;
     color: white;
     text-align: center;
     row-gap: 50px;
@@ -292,6 +278,12 @@ h5 {
     cursor: pointer;
 }
 
+.hide-button {
+    visibility: hidden;
+    position: absolute;
+    bottom: 50%;
+}
+
 /* for mobile */
 @media screen and (max-width:767px) {}
 
@@ -299,36 +291,140 @@ h5 {
 @media screen and (min-width:577px) and (max-width:768px) {
     .header-container {
         height: 398px;
-        width: 734px;
+        margin: 50px 50px 70px 50px;
+        width: auto;
+        /* width: 734px; */
         background-color: red;
-        /* position: absolute;
-        top: 50px; */
-        border: 2px solid black;
-        border-radius: 30px;
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
-        /* margin-bottom: 130px; */
-        overflow: hidden;
-        margin: 0 0 130px 0;
     }
 
     .header-left {
+        width: auto;
         height: 276px;
-        width: 316px;
         margin: 61px 2px 61px 76px;
-        color: black;
-        /* width: 531px;
-        height: 424px; */
+    }
+
+    .header-left-title {
+        /* height: 150px; */
+        width: 289px;
+        height: 150px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .header-left-subtitle {
+        height: 45px;
+        width: 316px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 20px;
+        /* white-space: nowrap; */
+    }
+
+    .header-left-button button {
         /* border: 2px solid red; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: auto;
+        width: auto;
+
     }
 
     .header-right {
         height: 340px;
-        width: 323px;
+        width: auto;
         margin: 58px 17px 0px 0px;
     }
+
+    .middlepart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+        padding: 0 0 0 0;
+        margin: 0 50px;
+    }
+
+    .menu {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        background-color: white;
+        column-gap: 22px;
+        padding: 0 0 0 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .schedules button,
+    .Stats button {
+        width: 205px;
+        height: 64px;
+        /* padding: 17px; */
+    }
+
+    .Updates button {
+        width: 205px;
+        height: 64px;
+    }
+
+    .footer {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .squadgrid {
+        /* border: 2px solid gray; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 19.5px;
+        column-gap: 20px;
+    }
+
+    .squad {
+        width: 320px;
+        height: 414px;
+        /* border: 2px solid blue; */
+        row-gap: auto;
+
+    }
+
+    .squad img {
+        height: 200.24px;
+        width: 100%;
+    }
+
+    .hide1,
+    .hide2,
+    .hide3 {
+        visibility: hidden;
+        position: absolute;
+        bottom: 50%;
+        border: 2px solid black;
+    }
+
+    .hide-button {
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+        position: relative;
+    }
+
+    .hide-button button {
+        margin-left: 5px;
+        background-color: blue;
+        height: 47px;
+        width: 131px;
+        color: white;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 345px;
+        row-gap: auto;
+        padding: 60px auto;
+        margin-top: 69px;
+    }
+
 }
