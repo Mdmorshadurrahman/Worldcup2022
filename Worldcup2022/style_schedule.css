@@ -3,7 +3,7 @@ body {
     font-family: 'Dosis', sans-serif;
     /* padding: 50px 139px 0px 85px; */
     margin: 0 0 0 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -56,7 +56,7 @@ h5 {
     color: black;
     width: 50%;
     height: 424px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin: 111px 24px 111px 106px;
     flex-direction: column;
@@ -69,7 +69,7 @@ h5 {
 } */
 
 .header-left-button button {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 56px;
     width: auto;
     background-color: black;
@@ -92,27 +92,27 @@ h5 {
     width: auto;
     margin-bottom: 20px;
     /* overflow: hidden; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .header-left-subtitle {
     width: auto;
     height: 60px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin-bottom: 30px;
 }
 
 .header-right {
     width: 50%;
     height: 613px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 33px 79px 0px 0px;
 
 }
 
 .header-right img,
 .messi {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     height: 105%;
 }
@@ -135,7 +135,7 @@ h5 {
     justify-content: space-around;
     column-gap: 24px;
     margin-bottom: 130px; */
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -147,7 +147,7 @@ h5 {
 }
 
 .menu {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +162,7 @@ h5 {
 }
 
 .squadgrid {
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -194,7 +194,7 @@ h5 {
 .Stats,
 .Updates {
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .Updates button,
@@ -236,7 +236,7 @@ h5 {
 }
 
 .team {
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     height: 56px;
     width: 40%;
 }
